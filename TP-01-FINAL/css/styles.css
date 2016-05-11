@@ -1,0 +1,589 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,700);
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	max-width: 1200px;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 15px;
+	margin: 0 auto;
+	background-color: #fff;
+	z-index: 600;	
+}
+
+.cleaner{
+	clear: both;
+}
+
+nav{
+	float: right;
+}
+nav li{
+	display: inline-block;
+	margin-left: 15px;
+}
+nav a{
+	color: #333;
+}
+
+.contenedor-inicial{
+	margin-top: 60px;
+	min-height: 500px;
+	background: url(../images/indexbanner-bg3.jpg) no-repeat center top scroll;
+}
+
+.wrapper{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.main-title{
+	color: #fff;
+	font-size: 40px;
+	margin: 280px 0 0;
+	display: inline-block;
+}
+
+
+.main-title + p{
+	color: #fff;
+	font-size: 18px;
+	width: 550px;
+	line-height: 37px;
+}
+
+.buscador{
+	position: relative;
+	margin-top: 230px;
+}
+
+.buscador input[type=text]{
+	width: 84%;
+	height: 70px;
+	border: solid 1px #ccc;
+	font-family: inherit;
+	font-size: 20px;
+	padding: 0 30px;
+}
+
+.buscador input[type=submit]{
+	width: 16%;
+    height: 70px;
+	background-color: #63BBDE;
+	color: #fff;
+	font-family: inherit;
+	font-size: 20px;
+	border: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	
+}
+
+.servicios-destacados{
+	margin-top: 150px;
+}
+
+.servicios-destacados article{
+	text-align: center;
+	width: 25%;
+	float: left;
+	padding: 0 25px;
+	position: relative;
+	
+}
+
+.servicios-destacados article img{
+	width: 33.333333333333%;
+	transition: all 250ms ease-in;
+	-webkit-transition: all 250ms ease-in;
+	border-radius: 50%;
+}
+
+.servicios-destacados article:hover img{
+	transform: rotate(360deg) scale(1.2);
+	-ms-transform: rotate(360deg) scale(1.2);
+	-webkit-transform: rotate(360deg) scale(1.2);
+	box-shadow: 0 0 12px black;
+}
+
+.subtitle{
+	font-size: 32px;
+	text-align: center;
+	margin: 80px 0 10px
+}
+
+.subtitle + p{
+	text-align: center;
+	font-size: 15px;
+	color: #333;
+    margin: 32px 0px 55px 0px;
+}
+
+.caracteristicas{
+	float: left;
+	width: 30%;
+}
+
+.imagen-mitad{
+	width: 25%;
+	float: left;
+	margin: 0 5%;	
+}
+
+
+.imagen-mitad img{
+	width: 100%;
+}
+
+.caract-izq article{
+	position: relative;
+	text-align: right;
+	padding-right: 70px;
+}
+
+.caract-izq article img{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.caract-der article{
+	position: relative;
+	padding-left: 60px;
+}
+
+.caract-der article img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.contenedor-secundario{
+	background: url(../images/pricing-bg.jpg) center top no-repeat;
+	min-height: 400px;
+	margin-top: -80px;
+}
+
+.contenedor-secundario h2{
+	text-align: center;
+	padding-top: 80px;	
+	margin: 0;
+	font-size: 36px;
+	font-weight: 700;
+}
+.contenedor-secundario h2 + p{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.pricing-boxes{
+	margin: 180px 0;
+
+}
+
+table, td, tr{
+	padding: 5;
+	border-spacing: 0;
+}
+
+.box-price{
+	width: 20%;
+	float: left;
+	background-color: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	padding: 30px 15px;
+	margin: 2.5%;
+}
+  
+
+.last{
+	margin-right: 0;
+}
+    
+
+.box-price table{
+	width: 100%;
+	text-align: center;
+}
+
+.box-price table h4{
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.box-price table h3{
+	font-size: 70px;
+	margin:0;
+	padding-top: 20px;
+	line-height: 70px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+
+.box-price table h3 i{
+	font-style: normal;
+}
+
+.box-price table h3 sup{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	font-weight: 400;
+	position: relative;
+	top: 5px;
+}
+
+.box-price table b{
+	font-weight: 400;
+	color: #7B7B7B;
+	font-size: 14px;
+	display:block;
+	border-bottom: solid 1px #ccc;
+	padding-bottom: 20px;
+}
+
+.blue{
+	color: blue;
+}
+
+.yellow{
+	color: yellow;
+}
+
+.orange{
+	color: orange;
+}
+
+.red{
+	color: red;
+}
+
+
+.boton{
+	background-color: #1B75BB;
+	font-family: 'Raleway';
+	color: white;
+	width: 100%;
+	padding: 9px 0;
+	margin-top: 15px;
+	border-radius: 5px;
+	display: inline-block;
+    overflow: hidden;
+}
+
+
+/*---Footer---*/
+
+
+.main-footer{
+	height: 250px;
+	margin: 0;
+	background-color: #233141;
+	text-align: center;
+}
+.sub-footer{
+	height: 100px;
+	margin: 0;
+	background-color: #151d26;
+	color: #d6dfef;
+}
+.footer-nav{
+	padding: 35px 0 35px;
+    
+}
+.footer-nav ul li a{
+	color: #d6dfef;
+    
+}
+#trademark{
+	float: left;
+	padding: 35px 0;
+}
+#hosting h3{
+	height: 50px;
+	font-size: 30px;
+	font-weight: normal;
+	color: #d6dfef;
+	font-family: 'Raleway', sans-serif;
+	padding-top: 100px;
+}
+#client-number{
+	font-family: arial;
+	font-size: 40px;
+	font-weight: bold;
+	color: rgba(0,171,240,1);
+}
+
+
+/*---Contact---*/
+
+
+.contenedor-prim{
+	margin-top: 60px;
+	background: url(../images/indexbanner-bg2.jpg) no-repeat center top scroll;
+}
+
+
+input[type=text]{
+	display: block;
+	height: 55px;
+	width: 100%;
+	font-family: inherit;
+	font-size: 20px;
+	margin:10px 0;
+	padding-left: 15px;
+	border: solid 1px grey;
+	border-radius: 5px;
+	box-shadow: 0 0 1px grey;
+}
+
+textarea{
+	height: 185px;
+	width: 100%;
+	font-family: inherit;
+	font-size: 20px;
+	padding-left: 15px;
+	padding-top: 10px;
+    margin-top: 10px;
+	border: solid 1px grey;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.forms{
+	width: 45%;
+    margin: 2.5%;
+    float: left;
+    text-align: center;
+}
+
+.boton-contact{
+	width: 20%;
+	height: 40px;
+	background-color: #1B75BB;
+	color: #fff;
+	border-radius: 5px;
+	font-family: inherit;
+	font-size: 16px;
+	border:none;
+	text-align: center;
+	margin: 60px 40%;
+	padding: 10px 5%;
+}
+
+.boton-contact a{
+    color: white;
+}
+
+.boton a{
+	text-decoration: none;
+	color: white;
+	font-family:'open sans';
+	text-align:center;
+	font-size: 18px;
+	font-weight:400;
+	text-decoration: none;
+
+}
+
+
+
+
+/*---media quieries---*/
+
+
+@media (max-width: 860px){
+	.wrapper{
+		width: 96%;
+
+	}
+
+	header nav{
+		display: inline-block;
+		float: none;
+		margin-left: 18%;
+	}
+
+	.servicios-destacados article{
+		width: 50%;
+		min-height: 380px;
+	}
+    
+    .box-price{
+	    width: 45%;
+	    margin-right: 2.5%;
+    }   
+    
+    #trademark{
+        padding: 10px;
+        width: 40%;
+        margin: 10px 30%;
+        text-align: center;
+        
+    }
+    
+    .footer-nav{
+        float: none;
+        position: absolute;
+        margin: 10px 37%;
+        width: 20%;
+    }
+    
+    .footer-nav ul{
+        padding-top: 10%;
+        text-align: center;
+    }   
+    
+}
+
+@media (max-width: 700px){
+	header{
+		position: static;
+		text-align: center;
+    }
+
+	header nav{
+		display: block;
+		margin-left: 0
+	}
+	
+	header nav li {
+		display: block;
+		padding: 10px 0;
+	}
+
+	.contenedor-inicial{
+	    background:none;
+        margin-top: 0
+	}
+
+	.main-title,
+    .main-title + p{
+	display: none;
+	}
+	.buscador{
+		margin-top: 0;
+	}
+    
+    
+	.caracteristicas{
+		float: none;
+		width: 100%;
+	}
+
+    .imagen-mitad img{
+        float: none;
+    }
+    .imagen-mitad{
+        float: none;
+        width: 50%;
+        margin: 50px auto;
+    }
+
+    .caract-izq article{
+        text-align: left;
+        padding-right: 0px;
+        padding-left: 60px;
+    }
+
+    .caract-izq article img{
+        left: 0;
+    }
+
+    .contenedor-secundario{
+        margin-top:30px; 
+        background-size: 100%
+    }
+    
+    .contenedor-prim{
+        background-image: none;
+    }
+    .forms{
+        float: none;
+    }
+    
+    input[type=text]{
+        margin: 5px;
+    }
+    
+   textarea{
+       display: block;
+   }
+   
+  .footer-nav ul{
+      display: inline-flex;
+  }
+   #trademark{
+       width: 50%;
+       margin: 10px 25%;
+   }
+   .sub-footer{
+       font-size: 13px;
+   }
+   
+  }
+
+@media (max-width: 480px){
+	.buscador input[type=submit]{
+	    font-size:17px;
+        width: 25%
+	}
+	.servicios-destacados{
+		margin-top: 40px
+	}
+
+	.servicios-destacados article{
+		float: none;
+		width: 100%;
+		min-height: 0;
+		margin-bottom: 30px;
+	}
+
+	.pricing-boxes{
+		margin-top: 50px;
+	}
+
+	.box-price{
+        float: none;
+        width: 70%;
+        margin: 30px auto;
+    }
+        
+     .sub-footer{
+            float: none;
+            text-align: center;
+     }
+     
+     #trademark{
+            width: 60%;
+            margin: 10px 20%;
+     }
+    .boton-contact a{
+        font-size: 13px;
+    }
+     
+}
+
